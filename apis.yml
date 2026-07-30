@@ -1,7 +1,28 @@
 aid: machinations
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/machinations.png
 name: Machinations
-description: Machinations is a company surfaced as a portfolio company of seedcamp and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Machinations is a visual platform for designing, simulating, and balancing
+  game economies, tokenomics, and other complex systems. Studios and designers
+  model resource flows as interactive node-and-connection diagrams, run
+  Monte-Carlo simulations to predict outcomes, and balance economies before a
+  single line of production code is written. The product spans Design, Predict,
+  and Balance modules plus an AI Builder that generates runnable diagrams from
+  natural-language descriptions and a spreadsheet integration. It is used by
+  studios such as Amazon Games, Hasbro, and Zynga and taught at MIT, NYU, and
+  Berkeley. Machinations is a Seedcamp portfolio company; at the time of this
+  enrichment pass it publishes no public developer API, SDK, or webhook surface.
 url: https://raw.githubusercontent.com/api-evangelist/machinations/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Game Design
+- Game Economy
+- Simulation
+- Tokenomics
+- Game Development
+- Modeling
+- Gaming
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://machinations.io
+  url: https://machinations.io
+- type: Documentation
+  url: https://machinations.io/docs
+- type: ChangeLog
+  url: https://machinations.io/docs/changelog
+- type: Pricing
+  url: https://machinations.io/pricing
+- type: Blog
+  url: https://machinations.io/articles
+- type: Support
+  url: https://machinations.io/contact
+- type: SignUp
+  url: https://my.machinations.io/register
+- type: Community
+  url: https://machinations.io/community/explore
+- type: DomainSecurity
+  url: security/machinations-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
